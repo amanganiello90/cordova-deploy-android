@@ -1,4 +1,8 @@
-## CORDOVA ANDROID tool to build and publish apk file
+# CORDOVA ANDROID tool to build and publish apk file [![Build Status](https://travis-ci.org/amanganiello90/cordova-publish-android.svg)](https://travis-ci.org/amanganiello90/cordova-publish-android)
+
+[![npm](https://img.shields.io/npm/v/github.svg)](https://www.npmjs.com/package/github)&nbsp;<img src="https://img.shields.io/github/forks/amanganiello90/cordova-publish-android.svg">&nbsp;
+<img src="https://img.shields.io/github/stars/amanganiello90/cordova-publish-android.svg">&nbsp;<a href="https://github.com/amanganiello90/cordova-publish-android/issues"><img src="https://img.shields.io/github/issues/amanganiello90/cordova-publish-android.svg">
+</a>&nbsp;
 
 A simple Node tool to build and publish apk file.
 It runs cordova build command, rename .apk file with its project name and version. 
