@@ -1,6 +1,6 @@
 # CORDOVA ANDROID tool to build and publish apk file [![Build Status](https://travis-ci.org/amanganiello90/cordova-publish-android.svg)](https://travis-ci.org/amanganiello90/cordova-publish-android)
 
-[![npm](https://img.shields.io/npm/v/github.svg)](https://www.npmjs.com/package/github)&nbsp;<img src="https://img.shields.io/github/forks/amanganiello90/cordova-publish-android.svg">&nbsp;
+[![npm](https://img.shields.io/npm/v/npm.svg)](https://www.npmjs.com/package/cordova-publish-android)&nbsp;<img src="https://img.shields.io/github/forks/amanganiello90/cordova-publish-android.svg">&nbsp;
 <img src="https://img.shields.io/github/stars/amanganiello90/cordova-publish-android.svg">&nbsp;<a href="https://github.com/amanganiello90/cordova-publish-android/issues"><img src="https://img.shields.io/github/issues/amanganiello90/cordova-publish-android.svg">
 </a>&nbsp;
 
@@ -11,7 +11,7 @@ In the end the apk file is published on a binary repository (for example Artifac
 ### Installing
 You must have installed Node.js and Java (whatever version) with its system variable (JAVA_HOME).
 
-After these prerequisites, you can download this repo and run:
+After these prerequisites, you can download the github repo and run:
 
 ```
 npm install
@@ -23,9 +23,26 @@ or
 npm install -g
 ```
 
+N.B for the linux machine probably you have to run "sudo npm install -g".
+
 The second globally installs a shell command in your machine.
 
-N.B for the linux machine probably you have to run "sudo npm install -g".
+
+Besides, you can install automatically with npm commands in your project (locally):
+
+
+```
+npm install cordova-publish-android
+```
+
+or globally
+
+```
+npm install cordova-publish-android -g
+```
+
+N.B for the linux machine probably you have to run "sudo npm install cordova-publish-android -g".
+
 
 ### Execution
 
