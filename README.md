@@ -1,15 +1,33 @@
-# CORDOVA ANDROID tool to build and publish apk file [![Build Status](https://travis-ci.org/amanganiello90/cordova-publish-android.svg)](https://travis-ci.org/amanganiello90/cordova-publish-android)
 
-[![npm](https://img.shields.io/npm/v/npm.svg)](https://www.npmjs.com/package/cordova-publish-android)&nbsp;<img src="https://img.shields.io/github/forks/amanganiello90/cordova-publish-android.svg">&nbsp;
+[![npm](https://img.shields.io/badge/npm-v8.9.4-green.svg)](https://www.npmjs.com/package/cordova-publish-android)&nbsp;<img src="https://img.shields.io/github/forks/amanganiello90/cordova-publish-android.svg">&nbsp;
 <img src="https://img.shields.io/github/stars/amanganiello90/cordova-publish-android.svg">&nbsp;<a href="https://github.com/amanganiello90/cordova-publish-android/issues"><img src="https://img.shields.io/github/issues/amanganiello90/cordova-publish-android.svg">
 </a>&nbsp;
 
+## cordova-publish-android [![Build Status](https://travis-ci.org/amanganiello90/cordova-publish-android.svg)](https://travis-ci.org/amanganiello90/cordova-publish-android)
+
 A simple Node tool to build and publish apk file.
 It runs cordova build command, rename .apk file with its project name and version. 
-In the end the apk file is published on a binary repository (for example Artifactory) with maven deploy file goal (apache-maven-3.3.9).
+In the end the apk file is published on a binary repository (for example Artifactory) with maven deploy file goal (apache-maven-3.5.0).
 
-### Installing
-You must have installed Node.js and Java (whatever version) with its system variable (JAVA_HOME).
+## NEWS
+
+For every release there is the features list in [CHANGELOG](https://github.com/fullStackApp/generator-full-stack-api/blob/master/CHANGELOG.md)
+
+* Added maven wrapper 1.2.0
+
+August 21,2018  | **Release 1.2.0** | available from [npm](https://www.npmjs.com/package/cordova-publish-android/v/1.2.0)  |
+---- | ---- | ---- |
+
+* First Release 1.1.0
+
+August 13,2017  | **Release 1.1.0** | available from [npm](https://www.npmjs.com/package/cordova-publish-android/v/1.1.0)  |
+---- | ---- | ---- |
+
+
+## Installing
+
+**:warning:**
+> You must have installed Node.js and Java (whatever version) with its system variable (JAVA_HOME).
 
 After these prerequisites, you can download the github repo and run:
 
@@ -44,7 +62,7 @@ npm install cordova-publish-android -g
 N.B for the linux machine probably you have to run "sudo npm install cordova-publish-android -g".
 
 
-### Execution
+## Execution
 
 If you have cloned this repo and executed "npm install", you have to copy the publish.js file and the node_modules folder under your cordova root folder (where there is the config.xml file and the platforms folder).
 

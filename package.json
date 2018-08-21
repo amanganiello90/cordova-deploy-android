@@ -1,6 +1,6 @@
 {
   "name": "cordova-publish-android",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "a node.js utility to build and publish cordova apk",
   "main": "index.js",
   "scripts": {
@@ -23,11 +23,10 @@
   },
   "homepage": "https://github.com/amanganiello90/cordova-publish-android#readme",
    "dependencies": {
-    "commander": "^2.9.0",
-    "cordova": "^6.4.0",
-    "fs": "0.0.1-security",
-    "shell_exec": "^1.0.3",
-    "xml2js": "^0.4.17"
+    "commander": "2.9.0",
+    "cordova": "6.4.0",
+    "shell_exec": "1.0.3",
+    "xml2js": "0.4.17"
   },
   "bin": {
     "cpa": "index.js"

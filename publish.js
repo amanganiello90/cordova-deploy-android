@@ -31,7 +31,7 @@ console.log(shell_exec('cd node_modules/cordova/bin && cordova build '));
 
 // maven deploy file
 console.log('waiting publish apk...');
-console.log(shell_exec('cd apache-maven-3.3.9/bin && mvn deploy:deploy-file -Durl='+ artifactoryPath+' -DrepositoryId='+ idRepo + ' -Dfile='+ name+ ' -DgeneratePom=false -DgroupId='+ groupId +' -DartifactId='+artifactId +' -Dversion='+version));
+console.log(shell_exec('mvnw deploy:deploy-file -Durl='+ artifactoryPath+' -DrepositoryId='+ idRepo + ' -Dfile='+ name+ ' -DgeneratePom=false -DgroupId='+ groupId +' -DartifactId='+artifactId +' -Dversion='+version));
 
 
 });
