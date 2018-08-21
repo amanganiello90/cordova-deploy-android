@@ -11,7 +11,6 @@ In the end the apk file is published on a binary repository (for example Artifac
 
 ## NEWS
 
-For every release there is the features list in [CHANGELOG](https://github.com/fullStackApp/generator-full-stack-api/blob/master/CHANGELOG.md)
 
 * Added maven wrapper 1.2.0
 
@@ -41,7 +40,7 @@ or
 npm install -g
 ```
 
-N.B for the linux machine probably you have to run "sudo npm install -g".
+> N.B for the linux machine probably you have to run "sudo npm install -g"
 
 The second globally installs a shell command in your machine.
 
@@ -59,14 +58,14 @@ or globally
 npm install cordova-publish-android -g
 ```
 
-N.B for the linux machine probably you have to run "sudo npm install cordova-publish-android -g".
+> N.B for the linux machine probably you have to run "sudo npm install cordova-publish-android -g"
 
 
 ## Execution
 
 If you have cloned this repo and executed "npm install", you have to copy the publish.js file and the node_modules folder under your cordova root folder (where there is the config.xml file and the platforms folder).
 
-N.B Previous the android platform must be added in your cordova project with the cordova cli command "cordova platform add android".
+> Previous the android platform must be added in your cordova project with the cordova cli command "cordova platform add android".
 Remember that to create a cordova project you have to install before the cordova cli with the "npm i cordova -g".
 
 After run this:
